@@ -1,0 +1,8 @@
+input = [1, 10, 44, 12, 0, -1]
+result_max = 0
+for element in input:
+    print()
+    print ('current element:', element,'max value:',result_max)
+    print('True:')
+    print('element:',element, 'result_max',result_max)
+    result_max = element

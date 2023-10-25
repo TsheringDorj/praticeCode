@@ -1,0 +1,19 @@
+print('Welcome user enter you marks to know your grade ')
+userName = input('Enter your Name :  ')
+print('Welcome',userName,'Let me give you a grade')
+Marks = int(input('Enter your mark:  '))
+if Marks > 80:
+    print('Grade A : Excellent')
+
+elif Marks > 70:
+    print('Grade B : Very Good')
+
+elif Marks > 60:
+    print('Grade C : Good')
+
+elif Marks > 50:
+    print('Grade D : Satisfactory')    
+
+else:
+    print('Grade F : FAIL')
+    
